@@ -1,0 +1,2 @@
+#!/bin/bash
+cat data.csv | head -n $(cat data.csv | wc -l) && tail -f -n 1 data.csv
